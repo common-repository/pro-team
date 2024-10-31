@@ -1,0 +1,72 @@
+<div class="migprog_guide clearfix">
+	<div class="migprog_menu">
+    	<a class="migprog_menu_button" href="#introduction">Introduction</a>
+        <a class="migprog_menu_button" href="#defaults">Setting Defaults</a>
+        <a class="migprog_menu_button" href="#member">Add Member</a>
+        <a class="migprog_menu_button" href="#shortcode">Insert Shorcode</a>
+    </div>
+    <div class="migprog_info">
+    	<h2 id="introduction" class="migprog_title">Introduction</h2>
+        <section>
+        Hello. this plugin composes of three sections. Admin Panel (this one), Members manager and a shortcode  manager. 
+        To access admin panel and Member manager, you must click the proper option at left, under admin panel. To use the shortcode manager, 
+        you must create or modify a page and above wp editor you will see a button named "ProTeam"
+        </section>
+        <h2 id="defaults" class="migprog_title">Setting Defaults</h2>
+        <section>
+        Here, in admin panel, you will set some values. This values will define the default ones, 
+        so each time that you add a new member, the starter value of each value it will be the same as here. 
+        Also, when you insert the shortcode, you could choose between use the values defined here, or use the values defined under each member.
+        </section>
+        <h2 id="member" class="migprog_title">Add Member</h2>
+        <section>
+        Navigate to ProTeam, then press add new.
+        <strong>Title:</strong>This field is used to display the member name
+        <strong>Editor:</strong>Used to display the member description, under full bio.
+        <strong>Editor:</strong>Used to display the member description, under full bio.
+        <strong>Features:</strong>Here you can add members skill, or whatever you want. You can choose background color and text color, and rearrange them pressing arrows. You can add as many as you want.
+        <strong>Social Options:</strong>Here you can add social icons with proper link. You can choose background color and icon color, and rearrange them pressing arrows. You can add as many as you want.
+        <strong>Design Options:</strong> Stylize your member. If you define different setting for each member, you must select the proper option when you insert the shortcode. Check the next section.
+        </section>
+        <h2 id="shortcode" class="migprog_title">Insert Shorcode</h2>
+        <section>
+        	Navigate to pages->Add new (or modify an existing one). Press the ProTeam Button (Above editor).
+            <strong>Style:</strong> If you choose custom, it will use the style defined under each member options, otherwise, it will use the same style to all members displayed with this shortcode.
+            <strong>Design:</strong> If you choose default, it will use the style defined under admin panel, custom will use the styles defined under member page.
+            <strong>Column:</strong> Members column.
+            <strong>Members per page:</strong> Number of members that will be displayed in this page.
+            <strong>Orderby and order:</strong> This define the order. Ex: If you choose date and ASC, it will display members from oldest to newest
+            <strong>Spaces between members:</strong>Pretty obvious.
+            <strong>Display Pagination:</strong>Ii will be displayed only if applies.Ex: If you added 16 members, and select "members per page = 12", pagination will appear.
+        	<strong>Custom Class (Optional):</strong> The custom class it will be added to each member markup, so it will affect member list and member bio.
+        </section>
+    </div>
+</div>
+
+<style type="text/css">
+migprog_info {
+	width: 60%;
+	float: left;
+}
+
+.migprog_menu {
+	width: 35%;
+	margin-right: 5%;
+	float: left;
+	
+}
+
+.migprog_menu_button {
+    background-color: #222222;
+    color: #ffffff !important;
+    text-decoration: none;
+    padding: 10px 20px;
+    width: 200px;
+    float: none !important;
+    margin: 1px 0;
+    display: block;
+    border-radius: 3px;
+}
+
+
+</style>

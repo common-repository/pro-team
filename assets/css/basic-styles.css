@@ -1,0 +1,371 @@
+.migproteam-wrapper.cont-spaces-yes-2 {
+	width: 105%;	
+}
+
+.migproteam-wrapper.cont-spaces-yes-3, .migproteam-wrapper.cont-spaces-yes-4 {
+	width: 103.5%;	
+}
+
+.migproteam-wrapper.cont-spaces-yes-5, .migproteam-wrapper.cont-spaces-yes-6 {
+	width: 103%;	
+}
+
+.migproteam_member {
+    list-style: none;
+    text-align: center;
+	float: left;
+	margin-bottom: 2.5%;
+}
+
+.migproteam_social_container {
+	margin: 2.5rem 0;
+	text-align: center;
+}
+
+a.migproteam_icon {
+    height: 35px;
+    width: 35px;
+    border: none !important;
+    display: inline-block;
+    margin: 2px;
+    line-height: 35px;
+    border-radius: 2px;
+}
+
+a.migproteam_icon:hover {
+    opacity: 0.9;
+}
+
+
+.migproteam_inner_content {
+    padding: 2.5rem;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    border-bottom: 4px solid rgba(0,0,0,0.1);
+}
+
+
+.migproteam_name.clearfix {
+    font-size: 120%;
+    font-weight: 600;
+}
+
+
+
+.migproteam_main_image img{
+	display: block !important;
+	width: 100% !important;
+	border-radius: 0 !important;
+}
+
+
+.migproteam_position.clearfix {
+    font-style: italic;
+    font-size: 90%;
+}
+
+.migproteam_short_description.clearfix {
+    margin-top: 1.4rem;
+    font-size: 80%;
+}
+
+.mig-pagination a, .mig-pagination span {
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 0 16px;
+    margin: 40px 0;
+}
+
+.mig-pagination a:hover, .mig-pagination span {
+	opacity: 0.8;
+}
+
+nav.mig-pagination.clearfix {
+    text-align: center;
+}
+
+/*====================== Image Effects ===============================*/
+
+.migproteam_main_image.migproteam_image_scale img {
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+}
+
+.migproteam_member:hover .migproteam_image_scale img {
+    transform: scale(1.3,1.3);
+}
+
+
+/*======================= Style One =================================*/
+.migproteam_member.style_one .migproteam_main_image {
+    overflow: hidden;
+}
+
+/*======================== Style Two =================================*/
+
+.migproteam_member.style_two .migproteam_main_image img {
+    border-radius: 300px !important;
+    overflow: hidden;
+    width: 60% !important;
+	max-width: 60% !important;
+    left: 20%;
+    padding: 6px;
+    margin-left: -13px;
+    position: relative;
+    border: 10px solid;
+	background-color: #ffffff;
+}
+
+.migproteam_member.style_two .migproteam_name.clearfix {
+    color: #4dfc3a;
+    margin-top: 35%;
+}
+
+.migproteam_member.style_two .migproteam_inner_content {
+	margin-top: -35%;
+}
+/*================== Style Three =============================*/
+.migproteam_member.style_three .migproteam_main_image {
+    overflow: hidden;
+}
+
+
+.migproteam_member.style_three .migproteam_social_container {
+    position: absolute;
+    top: 80px;
+    left: 52%;
+    margin: 0;
+    z-index: 999;
+}
+
+.migproteam_member.style_three a.migproteam_icon {
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 11px;
+}
+
+.migproteam_member.style_three .migproteam_main_image {
+	width: 50%;
+}
+
+.migproteam_member.style_three .migproteam_member_header.clearfix {
+    width: 40%;
+    position: absolute;
+    top: 0;
+    left: 52%;
+    text-align: left;
+}
+
+.migproteam_member.style_three .migproteam_inner_content {
+    padding: 20px 1rem;
+    box-shadow: none;
+    text-align: left;
+    border-bottom: 4px solid rgba(0,0,0,0.1);
+}
+
+.migproteam_member.style_three .migproteam_short_description {
+	margin-top: 0;
+}
+
+/*=========================== FULL DESCRIPTION ==================================*/
+.migproteam_full_bio.clearfix {
+	position: fixed;
+	z-index: 99999999;
+	left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+	display: none;
+	visibility: hidden;
+}
+
+.migproteam_full_overlay {
+    background-color: rgba(0,0,0,0.85);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.migproteam_full_main_image {
+	height: 280px;
+}
+
+.migproteam_full_bio_close {
+    position: absolute;
+    right: 2.5%;
+    top: 1.5%;
+    border: 1px solid #eaeaea;
+    padding: 2px 15px;
+    font-size: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+i.migproteam_full_previous.fa.fa-angle-left {
+    color: #fff;
+    position: absolute;
+    left: 7%;
+	margin-left: -40px;
+    font-size: 80px;
+    height: 80px;
+	width:80px;
+	text-align: center;
+    line-height: 80px;
+    top: 50%;
+    cursor: pointer;
+    margin-top: -40px;
+}
+
+i.migproteam_full_next.fa.fa-angle-right {
+    color: #fff;
+    position: absolute;
+    right: 7%;
+	margin-right: -40px;
+    font-size: 80px;
+	width: 80px;
+	text-align: center;
+    height: 80px;
+    line-height: 80px;
+    top: 50%;
+    cursor: pointer;
+    margin-top: -40px;
+}
+
+.migproteam_image_inner, .migproteam_name, .migproteam_position {
+	cursor: pointer;
+}
+
+.migproteam_full_bio_inner.clearfix {
+    width: 55%;
+    background-color: #ffffff;
+    height: 500px;
+    padding: 2.5%;
+    left: 20%;
+    position: absolute;
+    top: 10%;
+    overflow-y: scroll;
+}
+
+.migproteam_full_images {
+	width: 35%;
+	float: left;
+}
+.migproteam_full_images .migproteam_full_additional_image {
+    width: 22%;
+    margin: 1.5%;
+    float: left;
+}
+
+.migproteam_full_info.clearfix {
+    width: 60%;
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+}
+
+.migproteam_full_name.clearfix {
+    font-size: 35px;
+    margin-top: -10px;
+    font-weight: 600;
+}
+
+.migproteam_full_position.clearfix {
+    font-style: italic;
+    font-size: 18px;
+    margin-top: -10px;
+    color: #999;
+	margin-bottom: 1.8rem;
+}
+
+.migproteam_full_social_container.clearfix {
+    text-align: center;
+    float: left;
+    width: 100%;
+    clear: both;
+}
+
+.migproteam_full_skillname {
+    margin-right: 5px;
+}
+
+
+.migproteam_full_social_container a {
+    text-align: center;
+	display: block;
+	float: left;
+}
+
+
+.migproteam_full_description.clearfix {
+    margin-top: 2.5rem;
+}
+
+.migproteam_full_feature_wrapper {
+    padding: 5px 10px;
+    margin: 0 0 2px 0;
+    border-radius: 3px;
+}
+
+.migproteam_full_feature_wrapper div {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+/*===================== COLUMNS ===========================*/
+.mig-col-inner {position: relative;}
+
+
+.mig-col-1 { width: 100%;}
+.mig-col-2 { width: 50%}
+.mig-col-3 { width: 33.333333%}
+.mig-col-4 { width: 25%;}
+.mig-col-5 { width: 20%}
+.mig-col-6 { width: 16.666666%}
+
+.mig-col-inner.spaces-yes {
+	padding-right: 10%
+}
+
+.mig-col-1.mig-col-inner.spaces-yes {
+	padding-right: 0;
+}
+
+/*responsive*/
+/* Smartphones (portrait & landscape) */
+@media only screen and (max-device-width : 480px) {
+.mig-col-2, .mig-col-3, .mig-col-4, .mig-col-5, .mig-col-6 {
+	width: 100%;	
+}
+
+.mig-col-inner.spaces-yes {
+	padding-right: 0%
+}
+
+.migproteam-wrapper.cont-spaces-yes-2, .migproteam-wrapper.cont-spaces-yes-3, .migproteam-wrapper.cont-spaces-yes-4, .migproteam-wrapper.cont-spaces-yes-5, .migproteam-wrapper.cont-spaces-yes-6  {
+	width: 100%;	
+}
+
+
+}
+/* iPads (portrait & landscape) */
+@media only screen and (min-device-width : 481px) and (max-device-width : 1024px) {
+.mig-col-3, .mig-col-4, .mig-col-5, .mig-col-6 {
+	width: 50%;
+}
+
+.migproteam-wrapper.cont-spaces-yes-2, .migproteam-wrapper.cont-spaces-yes-3, .migproteam-wrapper.cont-spaces-yes-4, .migproteam-wrapper.cont-spaces-yes-5, .migproteam-wrapper.cont-spaces-yes-6  {
+	width: 105%;	
+} 
+ 
+}
+
